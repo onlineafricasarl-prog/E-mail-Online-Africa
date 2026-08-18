@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
           </div>
           <div>
             <a href="#features" style={{ marginRight: '24px', fontWeight: 500, opacity: 0.8 }}>Fonctionnalités</a>
-            <button className="btn-primary" style={{ padding: '8px 20px', fontSize: '0.95rem' }}>Connexion</button>
+            <Link href="/dashboard"><button className="btn-primary" style={{ padding: '8px 20px', fontSize: '0.95rem' }}>Connexion</button></Link>
           </div>
         </nav>
 
